@@ -1,0 +1,6 @@
+From the available source code you can see variable 'modified' must equal 0x61626364.
+
+1. Find the right offset
+> Since we know the right offset from the previous level, let's see how we can easily and fast get it.
+
+2. 
